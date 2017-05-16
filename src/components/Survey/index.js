@@ -28,6 +28,7 @@ export default class Survey extends React.Component {
   }
 
   maintainRating() {
+    //forceUpdate
     this.forceUpdate();
   }
 
